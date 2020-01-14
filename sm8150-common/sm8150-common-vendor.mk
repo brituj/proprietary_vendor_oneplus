@@ -220,4 +220,6 @@ PRODUCT_PACKAGES += \
     SoterService \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
-    com.qualcomm.location
+    com.qualcomm.location \
+    OOSCam \
+    OOSGallery

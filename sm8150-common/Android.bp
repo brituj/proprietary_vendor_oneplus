@@ -57,6 +57,28 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
+        name: "OOSCam",
+        owner: "oneplus",
+        apk: "proprietary/app/OOSCam/OOSCam.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+        overrides: ["Camera", "Camera2", "SnapdragonCamera"],
+}
+
+android_app_import {
+        name: "OOSGallery",
+        owner: "oneplus",
+        apk: "proprietary/app/OOSGallery/OOSGallery.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+        overrides: ["Gallery", "Gallery2", "SnapdragonGallery"],
+}
+
+android_app_import {
 	name: "NxpNfcNci",
 	owner: "oneplus",
 	apk: "proprietary/app/NxpNfcNci/NxpNfcNci.apk",

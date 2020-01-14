@@ -1,0 +1,2 @@
+sm8150-common/proprietary/app/OOSCam/OOSCam.apk filter=lfs diff=lfs merge=lfs -text
+sm8150-common/proprietary/app/OOSGallery/OOSGallery.apk filter=lfs diff=lfs merge=lfs -text
